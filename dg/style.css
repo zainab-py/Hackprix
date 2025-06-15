@@ -1,0 +1,80 @@
+/* 1. Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* 2. Apply font globally */
+html, body, [class^="css"] {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* 3. Background */
+body {
+    background-color: #c9afd5 !important;
+}
+
+/* 4. Title */
+.title {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: -400px; /* pull label closer to input */
+    margin-top: 0.5rem;
+}
+
+/* 5. Input box */
+input[type="text"] {
+    border-radius: 12px !important;
+    padding: 0.75rem !important;
+    border: 1px solid #dcdde1 !important;
+    font-size: 16px !important;
+    background-color: #f7f9fc !important;
+}
+
+/* 6. Button */
+.stButton>button {
+    font-family: 'Poppins', sans-serif !important;
+    border-radius: 12px;
+    background-color: #a29bfe;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    font-size: 16px;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: white !important;
+}
+
+.stButton>button:active,
+.stButton>button:focus {
+    color: white !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.stButton>button:hover {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+/* 7. Custom response box */
+.response-box {
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    margin-top: 1.2rem;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 17px;
+    color: #2d3436;
+    line-height: 1.6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
